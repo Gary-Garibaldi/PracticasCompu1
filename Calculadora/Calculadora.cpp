@@ -18,15 +18,15 @@ int main() {
     cin >> numero2;
     if (a == '+') {
         resultado = numero1+numero2;
-        cout<< "Resultado: \n" << numero1 << a << numero2 << "=" << resultado << endl;
+        cout<< "Resultado: \n" << " " << numero1 << " "<< " " <<  a << " " << " " << numero2 <<" " << " = " << resultado << endl;
     }
     if (a == '-') {
         resultado = numero1-numero2;
-        cout<< "Resultado: \n" << numero1 << a << numero2 << "=" << resultado << endl;
+        cout<< "Resultado: \n" << " " << numero1 << " "<< " " <<  a << " " << " " << numero2 <<" " << " = " << resultado << endl;
     }
     if (a == '*') {
         resultado = numero1*numero2;
-        cout<< "Resultado: \n" << numero1 << a << numero2 << "=" << resultado << endl;
+        cout<< "Resultado: \n" << " " << numero1 << " "<< " " <<  a << " " << " " << numero2 <<" " << " = " << resultado << endl;
     }
     if (a == '/') {
         if (numero2==0){
@@ -34,12 +34,12 @@ int main() {
         }
         else {
             resultado = numero1/numero2;
-            cout<< "Resultado: \n" << numero1 << a << numero2 << "=" << resultado << endl;
+            cout<< "Resultado: \n" << " " << numero1 << " "<< " " <<  a << " " << " " << numero2 <<" " << " = " << resultado << endl;
         }
     }
     if (a == '%') {
         resultado = (int)numero1 % (int)numero2;
-        cout<< "Resultado: \n" << numero1 << a << numero2 << "=" << resultado << endl;
+        cout<< "Resultado: \n" << " " << numero1 << " "<< " " <<  a << " " << " " << numero2 <<" " << " = " << resultado << endl;
     }
     return 0;
 }
