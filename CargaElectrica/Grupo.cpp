@@ -1,7 +1,3 @@
-//
-// Created by JCarl on 23/11/2022.
-//
-
 #include "Grupo.h"
 
 Grupo::Grupo(std::string _nombreGrupo,float _pkGrupo,int _cargaGrupo)
